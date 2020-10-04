@@ -1,0 +1,62 @@
+.header
+  position: relative
+  padding-bottom: 50px
+  background:
+    image: url(../img/#{$hero-path})
+    position: center
+    size: cover
+    repeat: no-repeat
+
+  &__navigation
+    float: right
+    padding-top: 30px
+
+    a
+      margin-right: 20px
+      @extend %small-bold
+      color: rgba(0,0,0,0.7)
+
+      &:last-child
+        margin-right: 0
+
+      &:hover
+        color: rgba(0,0,0,1)
+
+  &__banner
+    clear: both
+    margin-bottom: 20px
+    padding-top: 100px
+    color: white
+    font-size: 72px
+    font-weight: 700
+    text-align: center
+    text-transform: uppercase
+    letter-spacing: 0.05em
+
+    span
+      display: inline-block
+      padding: 0.2em 0.5em
+      border: white solid 10px
+
+  &__kicker
+    @extend %small-bold
+    color: white
+    line-height: 1
+    text-align: center
+    letter-spacing: 0.05em
+
+@media (max-width: 640px)
+  .header
+
+    &__navigation
+      float: none
+      +display(flex)
+      +justify-content(space-between)
+      max-width: 350px
+      margin: 0 auto
+
+      a
+        margin-right: 0
+
+    &__banner
+      padding-top: 0

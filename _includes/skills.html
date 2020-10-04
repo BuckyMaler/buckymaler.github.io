@@ -1,0 +1,12 @@
+<section  id="skills" class="section">
+  <h3 class="section__title">Skills</h3>
+  <div class="skills l-wrapper">
+    <div class="skills__lockup">
+      {% for skill in site.data.settings.skills %}
+        <div class="skills__el">
+          <img src="{{ site.github.url }}/assets/img/skills/{{skill.image}}.svg" alt="{{ skill.name }}">
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

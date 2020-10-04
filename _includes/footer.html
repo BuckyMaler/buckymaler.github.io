@@ -1,0 +1,10 @@
+<footer class="footer">
+  <div class="l-wrapper">
+    <nav class="footer__navigation">
+    {% for item in site.data.settings.menu %}
+      <a href="{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+    </nav>
+    <p class="footer__copyright">All content copyright {{ site.time | date: '%Y' }}</p>
+  </div>
+</footer>

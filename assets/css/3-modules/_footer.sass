@@ -1,0 +1,36 @@
+.footer
+  position: relative
+  padding: 50px 0
+  background:
+    image: url(../img/#{$hero-path})
+    position: center
+    size: cover
+    repeat: no-repeat
+
+  &__navigation
+    +display(flex)
+    +justify-content(space-between)
+    max-width: 350px
+    margin-bottom: 10px
+
+    a
+      @extend %small-bold
+      color: rgba(0,0,0,0.7)
+
+      &:hover
+        color: rgba(0,0,0,1)
+
+  &__copyright
+    margin-bottom: 0
+    color: rgba(0,0,0,0.7)
+    font-size: 12px
+    text-transform: uppercase
+
+@media (max-width: 640px)
+  .footer
+
+    &__navigation
+      margin: 0 auto 10px auto
+
+    &__copyright
+      text-align: center

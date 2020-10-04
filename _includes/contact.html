@@ -1,0 +1,12 @@
+<section id="contact" class="section">
+  <h3 class="section__title">Contact</h3>
+  <div class="contact l-wrapper">
+    <div class="contact__socials">
+    {% for link in site.data.settings.social %}
+      <a href="{{ link.link }}" class="icon-{{ link.icon }}" target="_blank"></a>
+    {% endfor %}
+    </div>
+    <hr class="contact__splitter">
+    <a class="contact__mail" href="mailto:{{ site.data.settings.email }}">{{ site.data.settings.email }}</a>
+  </div>
+</section>

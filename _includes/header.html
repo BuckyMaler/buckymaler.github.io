@@ -1,0 +1,11 @@
+<header class="header">
+  <div class="l-wrapper">
+    <nav class="header__navigation">
+    {% for item in site.data.settings.menu %}
+      <a href="{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+    </nav>
+    <h1 class="header__banner"><span>{{ site.data.settings.title }}</span></h1>
+    <p class="header__kicker">{{ site.data.settings.description }}</p>
+  </div>
+</header>

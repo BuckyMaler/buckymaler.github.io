@@ -1,0 +1,16 @@
+.section
+  position: relative
+  padding: 100px 0
+
+  &:nth-child(even)
+    background: $bgcolor
+
+  &__title
+    @extend %small-bold
+    margin: 0 0 45px 0
+    color: $accent-light
+    text-align: center
+
+@media screen and (max-width: 768px)
+  .section
+    padding: 60px 0

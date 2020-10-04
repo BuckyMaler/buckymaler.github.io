@@ -1,0 +1,46 @@
+.contact
+  text-align: center
+
+  &__socials
+    +display(flex)
+    +justify-content(space-around)
+    +flex-wrap(wrap)
+    max-width: 700px
+    margin: 0 auto
+
+    a
+      position: relative
+      display: block
+      +size(50px)
+      margin: 20px
+      color: $accent
+      font-size: 28px
+      line-height: 50px
+      border: 2px solid $accent
+      border-radius: 50%
+
+      &:after
+        content: ''
+        +position(absolute, 0px 0px 0px 0px)
+        display: block
+        margin: -2px
+        border: 2px solid $accent
+        border-radius: 50%
+        opacity: 1
+        +transition()
+
+      &:hover:after
+        +transform(scale(1.5))
+        opacity: 0
+
+  &__splitter
+    width: 250px
+    height: 0px
+    margin: 50px auto
+    border-top: 4px solid $accent
+
+  &__mail
+    display: block
+    font-size: 72px
+    font-weight: 300
+    line-height: 1
