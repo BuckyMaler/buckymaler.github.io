@@ -24,6 +24,9 @@ This portfolio was developed with HTML5, Sass, jQuery, and Jekyll.
   - [Jasmine](https://jasmine.github.io/)
   - [Redux](https://creativecommons.org/publicdomain/zero/1.0/)
   - [ngrx](https://github.com/ngrx/platform)
+  - [Node.js](https://nodejs.org)
+  - [Cypress](https://github.com/cypress-io/cypress)
+  - [Docker](https://www.docker.com)
 
 ## Misc:
 

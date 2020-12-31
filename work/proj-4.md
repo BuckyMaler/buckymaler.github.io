@@ -1,13 +1,19 @@
 ---
-title: Simply2do
+title: Fitness
 ---
 
-![Simply2do]({{ site.github.url }}/assets/img/work/proj-4/img-1.jpg)
+![Fitness]({{ site.github.url }}/assets/img/work/proj-4/img-1.jpg)
 
-Simply2do, is a task manager. The front-end was built with React and Backbone, and the back-end was written in NodeJS. User and task data is stored in MongoDB. Tasks can be added, removed, and marked as complete. In addition to that, tasks can be filtered by completion status. Source code available on [GitHub](https://github.com/BuckyMaler/simply2do){:target="_blank"}.
+Featured: [blazrobar.com](http://blazrobar.com/free-psd-website-templates/fitness-one-pager-html-template/){:target="_blank"}
 
-![Filter Tasks]({{ site.github.url }}/assets/img/work/proj-4/img-2.jpg)
+Fitness, is a bright and vibrant single page website template written in Bootstrap 4, and serves as a fantastic starting point to get you going on your next website project. The design was provided by kick ass designer, [Blaz Robar](http://blazrobar.com/){:target="_blank"}. Download available on [GitHub](https://github.com/BuckyMaler/fitness){:target="_blank"}.
 
-Built With: React, Backbone, NodeJS, MongoDB
+![Mobile Navigation]({{ site.github.url }}/assets/img/work/proj-4/img-3.jpg)
 
-<a href="http://simply2do.herokuapp.com" class="work-btn" target="_blank">View Work</a>
+This work features a slide out navigation on mobile.
+
+![Angled Components]({{ site.github.url }}/assets/img/work/proj-4/img-2.jpg)
+
+Built With: HTML5, Sass, Bootstrap 4, jQuery, Gulp
+
+<a href="http://buckymaler.com/fitness" class="work-btn" target="_blank">View Work</a>

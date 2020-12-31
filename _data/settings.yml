@@ -13,13 +13,14 @@ menu:
 # About Section
 
 blurb: >
-  **I craft codes** for human folks to enjoy. I'm a computer science and bootcamp graduate. My obsession is writing readable, modular, and performant code. I'm currently working as a Software Developer [@NOVGlobal](https://twitter.com/NOVGlobal){:target="_blank"}.
+  **I'm a developer for developers.** I strive to maximize developer experience and productivity by optimizing development environments and streamlining release processes. I'm currently working as a Software Architect [@NOVGlobal](https://twitter.com/NOVGlobal){:target="_blank"}.
 
 #------------------------------
 # Skills Section
 
 skills:
 - {name: JavaScript, image: 'javascript'}
+- {name: Node.js, image: 'nodejs'}
 - {name: React, image: 'react'}
 - {name: Angular, image: 'angular'}
 - {name: Backbone, image: 'backbone'}
@@ -29,6 +30,7 @@ skills:
 - {name: ngrx, image: 'ngrx'}
 - {name: Jest, image: 'jest'}
 - {name: Jasmine, image: 'jasmine'}
+- {name: Cypress, image: 'cypress'}
 - {name: Webpack, image: 'webpack'}
 - {name: Gulp, image: 'gulp'}
 - {name: HTML5, image: 'html5'}
@@ -36,19 +38,16 @@ skills:
 - {name: Sass, image: 'sass'}
 - {name: Git, image: 'git'}
 - {name: GitHub, image: 'github'}
+- {name: Docker, image: 'docker'}
 
 #------------------------------
 # Work Section
 
 projects:
-- {name: Fitness, folder: 'proj-1', file: 'work/proj-1.html'}
-- {name: Apollo, folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Nx Plus, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Channels, folder: 'proj-2', file: 'work/proj-2.html'}
 - {name: Global, folder: 'proj-3', file: 'work/proj-3.html'}
-- {name: GitHub Clone, folder: 'proj-7', file: 'work/proj-7.html'}
-- {name: Dribbb, folder: 'proj-5', file: 'work/proj-5.html'}
-- {name: Simply2do, folder: 'proj-4', file: 'work/proj-4.html'}
-- {name: Jekyll Starter Kit, folder: 'proj-6', file: 'work/proj-6.html'}
-- {name: Channels, folder: 'proj-8', file: 'work/proj-8.html'}
+- {name: Fitness, folder: 'proj-4', file: 'work/proj-4.html'}
 
 #------------------------------
 # Contact Section

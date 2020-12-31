@@ -1,19 +1,11 @@
 ---
-title: Fitness
+title: Nx Plus
 ---
 
-![Fitness]({{ site.github.url }}/assets/img/work/proj-1/img-1.jpg)
+![Nx Plus Vue]({{ site.github.url }}/assets/img/work/proj-1/thumb.jpg)
 
-Featured: [blazrobar.com](http://blazrobar.com/free-psd-website-templates/fitness-one-pager-html-template/){:target="_blank"}
+Nx Plus is a collection of Nx plugins. Nx is a suite of extensible dev tools for monorepos. Nx Plus adds first class support for Vue, Nuxt, and other technologies to Nx. That support consists of code generation scripts called schematics and task runners called builders. Schematics use abstract syntax trees (ASTs) for advanced code generation and builders integrate existing tools such as Vue CLI with Nx using Angular DevKit. Nx Plus is built with Node.js, TypeScript, and Angular DevKit. It’s unit tested and e2e tested with Jest.
 
-Fitness, is a bright and vibrant single page website template written in Bootstrap 4, and serves as a fantastic starting point to get you going on your next website project. The design was provided by kick ass designer, [Blaz Robar](http://blazrobar.com/){:target="_blank"}. Download available on [GitHub](https://github.com/BuckyMaler/fitness){:target="_blank"}.
+Built With: Node.js, TypeScript, Angular DevKit, Jest
 
-![Mobile Navigation]({{ site.github.url }}/assets/img/work/proj-1/img-3.jpg)
-
-This work features a slide out navigation on mobile.
-
-![Angled Components]({{ site.github.url }}/assets/img/work/proj-1/img-2.jpg)
-
-Built With: HTML5, Sass, Bootstrap 4, jQuery, Gulp
-
-<a href="http://buckymaler.com/fitness" class="work-btn" target="_blank">View Work</a>
+<a href="https://github.com/ZachJW34/nx-plus" class="work-btn" target="_blank">View Work</a>
