@@ -7,6 +7,9 @@
     "preview": "astro preview",
     "astro": "astro"
   },
+  "simple-git-hooks": {
+    "pre-commit": "npx pretty-quick --staged"
+  },
   "dependencies": {
     "@fontsource-variable/inter": "^5.2.5",
     "@lucide/astro": "^0.488.0",
@@ -14,5 +17,11 @@
   },
   "optionalDependencies": {
     "@rollup/rollup-linux-x64-gnu": "^4.40.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "prettier-plugin-astro": "^0.14.1",
+    "pretty-quick": "^4.1.1",
+    "simple-git-hooks": "^2.12.1"
   }
 }
